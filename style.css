@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    width: 1024px;
+}
+
+.top {
+    width: 960px;
+    height: 160px;
+    background: linear-gradient(180deg, #FBB7E0 0%, #949EB8 100%);
+    margin-bottom: 14px;
+}
+
+.content {
+    position: relative;
+    width: 960px;
+    height: 394px;
+    border: 1px solid #E5482B;
+    padding-top: 41px;
+    padding-left: 22px;
+    background-image: url('icons/flowers.png');
+    background-repeat: no-repeat;
+    background-position-x: 750px;
+    background-position-y: 95px;
+    margin-bottom: 18px;
+}
+
+.btn_pizza {
+    width: 272px;
+    height: 53px;
+    margin-top: 43px;
+    margin-left: 0px;
+}
+
+ .btn_detail {
+    display: block;
+    width: 271px;
+    height: 52px;
+    background: #E5482B;
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+article  {
+    position: absolute;
+    left: 322px;
+    top: 41px;
+
+    font-family: Roboto;
+    font-size: 45px;
+    line-height: 45px;
+    color: #000000;
+
+}
+
+.text {
+    position: absolute;
+    width: 616px;
+    height: 260px;
+    left: 322px;
+    top: 100px;
+    margin-top: 14px;
+
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+
+}
+
+.decor {
+    width: 960px;
+    height: 287px;
+    border: 1px solid #8333F1;
+    border-radius: 0px 30px 30px 30px;
+    background-image: url('icons/design.png');
+    background-repeat: no-repeat;
+    background-position-x: 650px;
+    background-position-y: 25px;
+    margin-bottom: 16px;
+}
+
+.head_deco {
+    width: 599px;
+    height: 45px;
+    margin-top: 38px;
+    margin-left: 48px;
+
+    font-family: Roboto;
+    font-size: 45px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.text_deco {
+    width: 608px;
+    height: 78px;
+
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 22px;
+    margin-left: 48px;
+}
+
+.btn_detail_2 {
+    display: block;
+    width: 239px;
+    height: 52px;
+    margin-top: 22px;
+    margin-left: 48px;
+    
+    background: #8333F1;
+    border-radius: 30px 30px 0px 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.carpet {
+    width: 960px;
+    height: 290px;
+    border: 0.5px transparent;
+    background-image: url('icons/Frame.png');
+    margin-bottom: 40px;
+    padding-top: 65px;
+}
+
+.friends {
+    background-image: url('icons/friends.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 225px;
+}
+
+.footer {
+    margin-bottom: 20px;
+    width: 954px;
+    height: 153px;
+    border-top: 1px solid #2541D3;
+    border-right: 1px solid #DE1919;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #09FDC2;
+    background-image: url('icons/rainbow.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    
+}
